@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@import url("travel-2_common.css");
+
+main {
+    text-align: center;
+}
+main > nav::after {
+    content: "";
+    display: block;
+    border: 1px solid rgba(172, 171, 171, 0.603);
+}
+main > nav > div {
+}
+main > nav > div > a {
+    display: inline-block;
+    padding: 0 5% 1%;
+
+    color: black;
+}
+
+.se-1 {
+}
+.se-1 > img {
+}
+.se-1 > h2 {
+    font-size: 70px;
+    margin-top: -10%;
+}
+.se-1 > p {
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.se-2 {
+}
+.se-2 > p {
+    line-height: 1.5;
+    font-size: 35px;
+}
+.se-2 > p > span {
+    color: red;
+    line-height: 2;
+}
+.se-2 > p:nth-child(1) {
+}
+
+.se-2 > p > img {
+    margin-right: 66%;
+}
+.se-2 > p:nth-child(2)::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid black;
+    width: 1600px;
+    margin: -11% auto;
+}
+
+.se-3 {
+    margin-top: 30%;
+}
+.se-3 > h2 {
+}
+
+.se-3-1 {
+}
+.se-3-1 > h3 {
+}
+.se-3-1 > p {
+}
+
+.se-3-2 {
+}
+.se-3-2 > h3 {
+}
+.se-3-2 > p {
+}
+
+.se-3-3 {
+}
+.se-3-3 > h3 {
+}
+.se-3-3 > p {
+}
+.se-3-3 > p > span {
+}
+.se-3-3 > p:nth-child(1) {
+}
+.se-3-3 > p:nth-child(2) {
+}
+
+.btn {
+    color: black;
+    padding: 4% 2% 15% 2%;
+}
+
+.btn > a:nth-child(1) {
+    display: inline-block;
+    margin-right: 70px;
+}
+
+.btn > a {
+    font-size: 30px;
+    font-weight: 300;
+    display: inline-block;
+    border: 1px solid rgba(122, 122, 122, 0.705);
+    color: black;
+    border-radius: 50px;
+    padding: 30px 40px;
+}
+
+.se-4 {
+}
+.se-4 > p {
+}
+.se-4 > p:nth-child(1)::after{
+    content: "";
+    display: block;
+    border-bottom: 3px solid black;
+    width: 1600px;
+    margin: 0 auto;
+}
+.se-4 > p > img {
+}
+.se-4 > p:nth-child(1) {
+}
+.se-4 > p:nth-child(2) {
+    color: #767676;
+}

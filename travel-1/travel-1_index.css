@@ -1,0 +1,170 @@
+@charset "UTF-8";
+@import url("travel-1_common.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Mukta:wght@700&family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@100;700;900&family=Nunito+Sans:wght@200;300;400&family=Oswald:wght@600&family=Playfair+Display:wght@400;600&display=swap");
+
+main {
+    text-align: center;
+}
+main > div {
+    display: flex;
+    justify-content: center;
+    margin: 280px auto;
+}
+main > div > p {
+}
+main > div > h2 {
+    font-size: 60px;
+}
+main > div > p > img {
+}
+
+main > nav::after {
+    content: "";
+    display: block;
+    border: 1px solid rgba(172, 171, 171, 0.603);
+}
+main > nav > div {
+}
+main > nav > div > a {
+    display: inline-block;
+    padding: 0 5% 1%;
+
+    color: black;
+}
+
+.m-1 {
+    font-size: 30px;
+    width: 1097px;
+    margin: 200px auto 257px auto;
+    line-height: 50px;
+}
+.m-1 > h2 {
+    padding-bottom: 100px;
+    font-family: "Noto Sans KR", sans-serif;
+}
+.m-1 > p {
+}
+.m-1 > p:nth-child(1) {
+}
+.m-1 > p:nth-of-type(2) {
+    padding-top: 50px;
+}
+.m-1 > p > span {
+    color: red;
+}
+
+.m-2 {
+    background-image: url(img/travel-background.png);
+    height: 1000px;
+    line-height: 30px
+}
+.m-2 > figure {
+    padding-bottom: 3%;
+}
+.m-2 > figure > img {
+}
+.m-2 > figure > h2 {
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 25%;
+}
+.ko {
+    border-radius: 50px;
+    font-size: 20px;
+    width: 350px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 5px 5px 20px rgba(172, 171, 171, 0.603);
+}
+.ko > h2 {
+    margin: 0px auto 40px auto;
+    font-family: "Noto Sans KR", sans-serif;
+
+    background-color: #d9d9d969;
+    height: 80px;
+    border-radius: 50px 50px 0 0;
+}
+.ko > p {
+}
+
+.eng {
+    border-radius: 50px;
+    font-size: 20px;
+    width: 350px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 5px 5px 20px rgba(172, 171, 171, 0.603);
+}
+.eng > h2 {
+    margin: 0px auto 0 auto;
+    font-family: "Noto Sans KR", sans-serif;
+    background-color: #d9d9d969;
+    height: 80px;
+    border-radius: 50px 50px 0 0;
+}
+.eng > p {
+}
+
+.m-3 {padding-top:10% ;
+}
+.m-3-1 > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.m-3-1 > div>h2 {
+ vertical-align: middle;
+ 
+   
+}
+.m-3-1 > figure > p {
+}
+.m-3-1 > figure > p > img {
+}
+.m-3-1 > figure > h2 {
+    font-size: 30px;
+    font-family: "Noto Sans KR", sans-serif;
+}
+.m-3-1 > p {
+    width: 1000px;
+    height: 400px;
+    font-size: 30px;
+    margin: 0 auto;
+    line-height: 50px;
+}
+.m-3-1 > p > span {
+    color: red;
+}
+
+.btn {
+    display: inline-block;
+    padding: 4% 2% 15% 2%;
+    
+}
+
+.btn> a:nth-child(1){
+    display: inline-block;
+    margin-right: 70px
+}
+.btn> a {
+    font-size: 30px;
+    font-weight: 300;
+    color: black;
+    display: inline-block;
+    border: 1px solid rgba(122, 122, 122, 0.705);
+   
+    border-radius: 50px;
+    padding: 30px 40px;
+  
+}
+
+.last-txt {
+}
+.last-txt > p {
+    color: #767676;
+}
