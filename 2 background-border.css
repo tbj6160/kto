@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+.bg{
+    width: 1400px;
+    margin: 100px auto;
+}
+
+.bg>ul{list-style-type:none;
+padding: 0;
+margin: 0;}/*ul태그 검정땡그라미 블릿 없애기
+->없어진자리 패딩,마진으로안쪽여백값없애기*/
+
+.bg>ul>li{height: 300px; 
+    border: 1px solid black; }
+
+.bg>ul>li:nth-of-type(1){background-color:rgb(249, 151, 82);
+    opacity:0.4 ;} /* (글,백그라운드 전체 투명도 조절) */
+   
+.bg>ul>li:nth-of-type(2){background-image: url(img/01.jpg);} /*백그라운드이미지 넣으면 패턴형식으로 반복해서 들어감*/
+.bg>ul>li:nth-of-type(3){background-image: url(img/04.jpg);
+background-repeat:no-repeat;
+height: 900px;
+}/*이미지 반복 조절
+repeat-x(가로만 반복) repeat-y(세로만 반복) no-repeat(반복안함)*/
+.bg>ul>li:nth-of-type(4){
+    background-image: url(img/03.jpg);
+background-repeat:no-repeat;
+height: 900px;
+background-position: calc(100% - 20px) 50%;
+}/*background-position= 백그라운드이미지 이미지위치 잡는법
+x가로(left, center, right)
+y세로(top,center, boyyom)
+센터 (center center;)(50% 50%;)
+%수치로도 위치 선장할 수 있따
+ calc(100% - 20px) =20px만큼 여백주고싶을때 calc함수사용 , 연산기호+-는 꼭 띄어써줘야함*/
+.bg>ul>li:nth-of-type(5){background-image: url(img/05.jpg);
+    background-repeat:no-repeat;
+    background-size: 500px 300px;
+ 
+}/*가로x,세로y (px,% 둘다 가능)
+cover; 영역 꽉채움 
+100%*/
+.bg>ul>li:nth-of-type(6){
+    background-image: url(img/07.jpg);
+    background-repeat:no-repeat;
+background-attachment: fixed;
+background-size: cover;
+height: 500px;
+}/*background-attachment: fixed 백그라운드 고정할떄*/
+.bg>ul>li:nth-of-type(7){
+    background: coral url(img/09.jpg) center /500px 300px no-repeat;
+}   
+/* background: color image position/ size repeat attachment; 
+background: color image position/ size repeat; (고정값없을때 그냥 이어서 다쓰면됨)
+background: color image position repeat;
+background: image position / size  repeat;
+background:image position repeat;
+*/
+.bg>ul>li:nth-of-type(8){
+    background: linear-gradient(to top,rgba(255, 255, 52, 0.479)30%, lightpink 60%  , rgba(255, 0, 0, 0.508) 80%);
+}/*to right to left to bottem to top -> 그라데이션 방향설정 색상값앞에 넣어줌
+or 45deg 45도 90deg 90도 각도값으로 조절
+숫자갑뒤에 %로 컬러영역 정할 수 있음*/
+
+.bg>ul>li:nth-of-type(9){
+    background: radial-gradient(circle, rgba(140, 215, 255) 20%, rgba(216, 130, 255) 40%);
+}
+/*circle at 25% 10% (모양 at 가로세로)*/
+
+.bg>ul>li:nth-of-type(10){
+    background:conic-gradient(rgba(255, 0, 0, 0.525) 10%, pink 60%, green 80%, greenyellow);
+width: 300px;
+border-radius:100%;
+}/*border-radius 보더값 모양(둥글게) */
+
+.bg>ul>li:nth-of-type(11){
+    background: repeating-linear-gradient(45deg,red ,red 5px, blue 10px, blue 20px);
+
+}
+
+
+
+.border{
+width: 1400px;
+margin: 100px auto;
+}
+.border>ul{list-style-type:none;
+padding: 0;
+margin: 0;}
+.border>ul>li{
+white-space: pre-line;
+margin: 50px 0px;
+}
+.border>ul>li:nth-of-type(1){
+    background-color: lightgray; padding: 40px;
+  
+}
+.border>ul>li:nth-of-type(2){
+    border:1px solid hotpink;
+    border-width: 10px 0px;
+}
+/* border-width: 10px 0px;
+=border-top-width:10px;
+border-bottom-width:10px;
+border-left-width:0;
+border-right-width:0; 
+clolr width랑 방법 같음*/
+.border>ul>li:nth-of-type(3){
+ border: 1px solid gray;
+}
+
+.border>ul>li>span{
+display: inline-block;
+padding: 30px 50px;
+margin: 30px 0;
+border: 3px solid red;
+
+}
+.border>ul>li>span:nth-of-type(1){
+
+border-style: solid;}
+
+.border>ul>li>span:nth-of-type(2){
+    border-style: dotted;
+}
+.border>ul>li>span:nth-of-type(3){
+  border-style: dashed;  
+}
+.border>ul>li>span:nth-of-type(4){
+border-style: double;
+}
